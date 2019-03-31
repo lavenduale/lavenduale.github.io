@@ -1,0 +1,40 @@
+#main-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-info-sub {
+    color: #fff;
+    background: rgb(107, 150, 185);
+}
+
+.bg-resume {
+    color: #fff;
+    background: rgb(124, 201, 61);
+}
+
+.bg-work {
+    color: #fff;
+    background: rgb(236, 153, 84);
+}
+
+.bg-black {
+    color: #fff;
+    background: Black;
+}
+
+#main-header .port-item {
+    width: 30%;
+}
+
+#main-header .port-item:hover {
+    opacity: 0.75;
+    cursor: pointer;
+    color: Black;
+}
+
+@media(min-width: 1199px){
+    .port-item {
+        padding: 2.5em !important;
+    }
+}

@@ -1,330 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
-        <title>Omnifood</title>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <div class="row">
-                    <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
-                    <ul class="main-nav">
-                        <li><a href="#">Food delivery</a></li>
-                        <li><a href="#">How it works</a></li>
-                        <li><a href="#">Our cities</a></li>
-                        <li><a href="#">Sign up</a></li>
-                    </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap Theme</title>
+</head>
+<body>
+    <!-- start here -->
+    <div class="container">
+        <header id="main-header">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-md-5">
+                    <img src="img/person.jpg" alt="profileImg">
                 </div>
-            </nav>
-            <div class="hero-text-box">
-                <h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
-                <a class="btn btn-full" href="#">I'am hungry</a>
-                <a class="btn btn-ghost" href="#">Show me more</a>
+                <div class="col-lg-8 col-md-7">
+                    <div class="d-flex flex-column">
+                        <div class="p-5 bg-dark text-white">
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <h1 class="display-4">Ethan Du</h1>
+                                <div class="d-none d-md-block">
+                                    <a href="https://www.linkedin.com/in/ethan-du/" class="btn btn-outline-light">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://www.facebook.com/yusong.du.1" class="btn btn-outline-light">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://www.instagram.com/ethaaaaaannnn/" class="btn btn-outline-light">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="https://github.com/lavenduale" class="btn btn-outline-light">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="p-4 bg-black">
+                            Experienced Full Stack Web Developer
+                        </div>
+
+                        <div>
+                            <div class="d-flex flex-row text-white align-items-stretch text-center">
+                                <div class="port-item p-4 bg-info" data-toggle="collapse" data-target="#home">
+                                    <i class="fas fa-home fa-2x d-block"></i>
+                                    <span class="d-none d-sm-block">Home</span>
+                                </div>
+                                <div class="port-item p-4 bg-resume" data-toggle="collapse" data-target="#resume">
+                                        <i class="fas fa-user-graduate fa-2x d-block"></i>
+                                    <span class="d-none d-sm-block">Resume</span>
+                                </div>
+                                <div class="port-item p-4 bg-work" data-toggle="collapse" data-target="#work">
+                                    <i class="fas fa-briefcase fa-2x d-block"></i>
+                                    <span class="d-none d-sm-block">Work</span>
+                                </div>
+                                <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
+                                    <i class="fas fa-envelope fa-2x d-block"></i>
+                                    <span class="d-none d-sm-block">Contact</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </header>
 
-        <section class="section-features">
+        <!-- home -->
+        <div id="home" class="collapse show">
+            <div class="card card-body bg-info-sub text-white py-5">
+                <h2>Welcome To My Page</h2>
+                <p class='lead'>lol here!</p>
+            </div>
+            <div class="card card-body py-5">
+                <h3>My Skills</h3>
+                <p> skills here lol !!!</p>
+                <hr>
+                <h3><i class="fab fa-html5"> HTML 5</i></h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" style="width:100%">100%</div>
+                </div>
+                <h3><i class="fab fa-css3-alt"> CSS 3</i></h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" style="width:85%"></div>
+                </div>
+                <h3><i class="fab fa-js-square"> JavaScript</i></h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" style="width:90%"></div>
+                </div>
+                <h3><i class="fab fa-angular"> Angular</i></h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" style="width:80%"></div>
+                </div>
+                <h3><i class="fab fa-python"> Python</i></h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" style="width:100%"></div>
+                </div>
+                <h3><i class="fab fa-java"> Java</i></h3>
+                <div class="progress mb-3">
+                    <div class="progress-bar bg-success" style="width:100%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- resume -->
+        <div id="resume" class="collapse">
+            <div class="card card-body bg-resume text-white py-5">
+                <h2>My Resume</h2>
+                <p class="lead">lol resue here!</p>
+            </div>
+            <div class="card card-body py-5">
+            <h3>Where Have I Worked?</h3>
+            <p>I work here lol!</p>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Memorial University
+                        </h4>
+                        <p class="card-text">work experience here!!</p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                            Full Stack Developer
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                            St.John's
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="text-muted">Dates: 2015 - 2018</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Memorial University
+                        </h4>
+                        <p class="card-text">work experience here!!</p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                            Research Assistant
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                            St.John's
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="text-muted">Dates: 2015 - 2018</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Memorial University
+                        </h4>
+                        <p class="card-text">work experience here!!</p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                            Research Assistant
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                            St.John's
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="text-muted">Dates: 2015 - 2018</h6>
+                    </div>
+                </div>
+                <!-- -->
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            Loblaw Ltd Company
+                        </h4>
+                        <p class="card-text">work experience here!!j  kj ij i ji ji ji ji ji ji jjlj o gygy y vt</p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                            Deli Clerk
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                            St.John's
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="text-muted">Dates: 2015 - 2018</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- work -->
+        <div id="work" class="collapse">
+            <div class="card card-body bg-warning text-white py-5">
+                <h2>My Work</h2>
+                <p class='lead'>here my works here !!!!</p>
+            </div>
+            <div class="card card-body py-5">
+                <h3>What Have I Built?</h3>
+                <p>here I build a lot here!!!</p>
+                <div class="row no-gutters">
+                    <div class="col-md-3">
+                        <a href="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" data-toggle="lightbox">
+                            <img src="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" data-toggle="lightbox">
+                            <img src="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" data-toggle="lightbox">
+                            <img src="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" data-toggle="lightbox">
+                            <img src="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" data-toggle="lightbox">
+                            <img src="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" data-toggle="lightbox">
+                            <img src="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" data-toggle="lightbox">
+                            <img src="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" data-toggle="lightbox">
+                            <img src="https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2018/01/Banana-Nut-Bread.jpg?w=1360&ssl=1" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div id="contact" class="collapse">
+            <div class="card card-body bg-danger text-white py-5">
+                <h2>My Information</h2>
+                <p class='lead'>here my information here !!!!</p>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer id="main-footer" class="p-5 bg-dark text-white">
             <div class="row">
-                <h2>Get food fast &mdash; not fast food</h2>
-                <p class="long-copy">
-                    Hello, we're Omnifood, your new premium food delivery service. We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!
-                </p>
-            </div>
-
-            <div class="row"> <!-- start from a new row --> 
-                <div class="col span-1-of-4 box"> <!--  first colmn, col and span-1-of4 classes from grid.css -->
-                    <div class="icon-big">
-                        <ion-icon name="infinite"></ion-icon>
-                    </div>
-                    <h3>Up to 365 days/year</h3>
-                    <p>
-                        Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
-                    </p>
-                </div>
-                <div class="col span-1-of-4 box"> <!-- second colmn, col and span-1-of4 classes from grid.css -->
-                    <div class="icon-big">
-                        <ion-icon name="stopwatch"></ion-icon>
-                    </div>
-                    <h3>Ready in 20 minutes</h3>
-                    <p>
-                        You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.
-                    </p>
-                </div>
-                <div class="col span-1-of-4 box"> <!-- third colmn, col and span-1-of4 classes from grid.css -->
-                    <div class="icon-big">
-                        <ion-icon name="nutrition"></ion-icon>
-                    </div>
-                    <h3>100% organic</h3>
-                    <p>
-                        All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!
-                    </p>
-                </div>
-                <div class="col span-1-of-4 box"> <!-- fourth colmn, col and span-1-of4 classes from grid.css -->
-                    <div class="icon-big">
-                        <ion-icon name="cart"></ion-icon>
-                    </div>
-                    <h3>Order anything</h3>
-                    <p>
-                        We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
-                    </p>
+                <div class="col-md-6">
+                    <a href="#" class="btn btn-outline-light">
+                        <i class="fas fa-cloud-download-alt"></i> Download Resume
+                    </a>
                 </div>
             </div>
-        
-        </section>
+        </footer>
+    </div>
 
-        <section class="section-meals">
-            <ul class="meals-showcase clearfix"> <!-- First grid of image-->
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/4.jpg" alt="Autumn pumpkin soup">
-                    </figure>
-                </li>
-            </ul>
-            <ul class="meals-showcase clearfix"> <!-- Second grid of image -->
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/5.jpg" alt="Paleo beef steak with vegetables">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/7.jpg" alt="Burger with cheddar and bacon">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/8.jpg" alt="Granola with cherries and strawberries">
-                    </figure>
-                </li>
-            </ul>
-        </section>
-
-        <section class="section-steps">
-            <div class="row">
-                <h2>How it works &mdash; Simple as 1, 2, 3</h2>
-            </div>
-            <div class="row">
-                <div class="col span-1-of-2 steps-box">
-                    <img src="resources/img/app-iPhone.png" alt="Onifood app on iPhone" class="app-screen">
-                </div>
-                <div class="col span-1-of-2 steps-box">
-                    <div class="works-step">
-                        <div>1</div>
-                        <p>Choose the subscription plan that best fits your needs and sign up today.</p>
-                    </div>
-                    <div class="works-step">
-                        <div>2</div>
-                        <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
-                    </div>
-                    <div class="works-step">
-                        <div>3</div>
-                        <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
-                    </div>
-
-                    <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App Store Button"></a>
-                    <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store Button"></a>
-                </div>
-            </div>
-        </section>
-
-        <section class="section-cities">
-            <div class="row">
-                <h2>We're currently in these cities</h2>
-            </div>
-            <div class="row">
-                <div class="col span-1-of-4 box">
-                    <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
-                    <h3>Lisbon</h3>
-                    <div class="city-feature">
-                        <ion-icon name="person"></ion-icon>
-                        1600+ happy eaters
-                    </div>
-                    <div class="city-feature">
-                        <ion-icon name="star"></ion-icon>
-                        60+ top chefs
-                    </div>
-                    <div class="city-feature">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                        <a href="#">@omnifood_lx</a>
-                    </div>
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/img/san-francisco.jpg" alt="San Francisco">
-                    <h3>San Francisco</h3>
-                    <div class="city-feature">
-                        <ion-icon name="person"></ion-icon>
-                        3700+ happy eaters
-                    </div>
-                    <div class="city-feature">
-                        <ion-icon name="star"></ion-icon>
-                        160+ top chefs
-                    </div>
-                    <div class="city-feature">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                        <a href="#">@omnifood_lx</a>
-                    </div>
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/img/berlin.jpg" alt="Berlin">
-                    <h3>Berlin</h3>
-                    <div class="city-feature">
-                        <ion-icon name="person"></ion-icon>
-                        2300+ happy eaters
-                    </div>
-                    <div class="city-feature">
-                        <ion-icon name="star"></ion-icon>
-                        110+ top chefs
-                    </div>
-                    <div class="city-feature">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                        <a href="#">@omnifood_lx</a>
-                    </div>
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/img/london.jpg" alt="London">
-                    <h3>London</h3>
-                    <div class="city-feature">
-                        <ion-icon name="person"></ion-icon>
-                        1200+ happy eaters
-                    </div>
-                    <div class="city-feature">
-                        <ion-icon name="star"></ion-icon>
-                        50+ top chefs
-                    </div>
-                    <div class="city-feature">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                        <a href="#">@omnifood_lx</a>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="section-testimonials">
-            <div class="row">
-                <h2>Our customers can't live without us</h2>
-            </div>
-            <div class="row">
-                <div class="col span-1-of-3">
-                    <blockquote>
-                        Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                        <cite><img src="resources/img/customer-1.jpg">Alberto Duncan</cite>
-                    </blockquote>
-                </div>
-                <div class="col span-1-of-3">
-                    <blockquote>
-                        Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
-                        <cite><img src="resources/img/customer-2.jpg">Joana Silva</cite>
-                    </blockquote>
-                </div>
-                <div class="col span-1-of-3">
-                    <blockquote>
-                        I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-                        <cite><img src="resources/img/customer-3.jpg">Milton Chapman</cite>
-                    </blockquote>
-                </div>
-            </div>
-        </section>
-
-        <section class="section-plans">
-            <div class="row">
-                <h2>Start eating healthy today</h2>
-            </div>
-            <div class="row">
-                <div class="col span-1-of-3">
-                    <div class="plan-box">
-                        <div>
-                            <h3>Premium</h3>
-                            <p class="plan-price">399$ <span>/ month</span></p>
-                            <p class="plan-price-meal">That's only 13.30$ per meal</p>
-                        </div>
-                        <div>
-                            <ul>
-                                <li><ion-icon name="checkmark-circle-outline"></ion-icon>1 meal every day</li>
-                                <li><ion-icon name="checkmark-circle-outline"></ion-icon>Order 24/7</li>
-                                <li><ion-icon name="checkmark-circle-outline"></ion-icon>Access to newest creations</li>
-                                <li><ion-icon name="checkmark-circle-outline"></ion-icon>Free delivery</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <a href="#" class="btn btn-full">Sign up now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col span-1-of-3">
-                    <div class="plan-box">
-                        <div>
-                            <h3>Pro</h3>
-                            <p class="plan-price">149$ <span>/ month</span></p>
-                            <p class="plan-price-meal">That’s only 14.90$ per meal</p>
-                        </div>
-                        <div>
-                            <ul>
-                                <li><ion-icon name="checkmark-circle-outline"></ion-icon>1 meal 10 days/month</li>
-                                <li><ion-icon name="checkmark-circle-outline"></ion-icon>Order 24/7</li>
-                                <li><ion-icon name="checkmark-circle-outline"></ion-icon>Access to newest creations</li>
-                                <li><ion-icon name="checkmark-circle-outline"></ion-icon>Free delivery</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <a href="#" class="btn btn-ghost">Sign up now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col span-1-of-3">
-                    <div class="plan-box">
-                        <div>
-                            <h3>Starter</h3>
-                            <p class="plan-price">19$ <span>/ month</span></p>
-                            <p class="plan-price-meal">&nbsp;</p>
-                        </div>
-                        <div>
-                            <ul>
-                                <li><ion-icon name="checkmark-circle-outline"></ion-icon>1 meal</li>
-                                <li><ion-icon name="checkmark-circle-outline"></ion-icon>Order from 8 am to 12 pm</li>
-                                <li><ion-icon name="close-circle-outline"></ion-icon>Access to newest creations</li>
-                                <li><ion-icon name="checkmark-circle-outline"></ion-icon>Free delivery</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <a href="#" class="btn btn-ghost">Sign up now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
-    </body>
-
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
 </html>
-
-<!--
-
--->
