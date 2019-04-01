@@ -1,26 +1,99 @@
-#main-header img {
-    width: 100%;
-    height: 100%;
+html {
+    background-color: #fff;
+    font-family: 'Lato', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility;
 }
+
+h2 {
+    font-weight: 300;
+}
+
+/* toggle sub here */
 
 .bg-info-sub {
     color: #fff;
-    background: rgb(107, 150, 185);
+    background: rgb(48, 99, 138);
+    height: 190px;
+    border: none;
 }
 
-.bg-work {
+.bg-work-sub {
     color: #fff;
-    background: rgb(124, 201, 61);
+    background: rgb(59, 62, 92);
+    height: 190px;
+    border: none;
+}
+
+.bg-weducation-sub{
+    color: #fff;
+    background: rgb(243, 173, 81);
+    height: 190px;
+    border: none;
+}
+
+.bg-proj-sub {
+    color: #fff;
+    background: rgb(43, 149, 156);
+    height: 190px;
+    border: none;
+}
+
+.bg-contact-sub {
+    color: #fff;
+    background: rgb(241, 58, 58);
+    height: 190px;
+    border: none;
+}
+
+/* toggle here */
+
+.bg-work {
+    width: 20%;
+    color: #fff;
+    background: rgb(59, 62, 92);
+}
+
+.bg-proj {
+    width: 20%;
+    color: #fff;
+    background: rgb(43, 149, 156);
 }
 
 .bg-education {
+    width: 20%;
     color: #fff;
-    background: rgb(236, 153, 84);
+    background:  rgb(243, 173, 81);
+}
+
+.bg-contact {
+    width: 20%;
+    color: #fff;
+    background:  rgb(241, 58, 58);
+}
+
+.bg-home {
+    width: 20%;
+    background:rgb(48, 99, 138);
 }
 
 .bg-black {
     color: #fff;
     background: Black;
+    font-weight: 800;
+}
+
+/* header here */
+
+.bg-dark {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#main-header img {
+    width: 100%;
+    height: 100%;
 }
 
 #main-header .port-item {
