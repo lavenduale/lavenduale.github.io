@@ -4,8 +4,49 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-h2 {
+h2, h3 {
     font-weight: 300;
+}
+
+.box {
+    text-align: center;
+    margin: 30px;
+}
+
+h3 {
+    color: #555;
+    font-size: 31px;
+    font-weight: 200;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    word-spacing: 1px;
+}
+
+.box a {
+    font-size: 110%;
+    margin-bottom: 15px;
+    font-weight: 200;
+    color: #555;
+}
+
+#home h3:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.long-copy {
+    line-height: 155%;
+    font-weight: 200;
+    font-size: 20px;
+    width: 70%;
+    color: #555;
+    margin-left: 15%;
 }
 
 /* toggle sub here */
@@ -40,7 +81,7 @@ h2 {
 
 .bg-contact-sub {
     color: #fff;
-    background: rgb(241, 58, 58);
+    background: rgb(207, 74, 74);
     height: 190px;
     border: none;
 }
@@ -68,7 +109,7 @@ h2 {
 .bg-contact {
     width: 20%;
     color: #fff;
-    background:  rgb(241, 58, 58);
+    background:  rgb(207, 74, 74);
 }
 
 .bg-home {
@@ -79,7 +120,15 @@ h2 {
 .bg-black {
     color: #fff;
     background: Black;
-    font-weight: 800;
+    font-weight: 300;
+}
+
+#home .row {
+    margin-bottom: -70px;
+}
+
+span {
+    font-weight: 300;
 }
 
 /* header here */
@@ -106,8 +155,43 @@ h2 {
     color: Black;
 }
 
-@media(min-width: 1199px){
+@media(min-width: 1299px){
     .port-item {
         padding: 2.5em !important;
     }
+}
+
+/* IONICONS */
+.icon-big i {
+    font-size: 400%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+/* Button */
+.btn-ghost:link,
+.btn-ghost:visited {
+    color: #555;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
+}
+
+#home .btn:hover,
+btn:active {
+    background-color: #cf6d17;
 }
