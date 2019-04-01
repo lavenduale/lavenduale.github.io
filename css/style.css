@@ -23,7 +23,7 @@ h3 {
     word-spacing: 1px;
 }
 
-.box a {
+.box button {
     font-size: 110%;
     margin-bottom: 15px;
     font-weight: 200;
@@ -124,16 +124,26 @@ h3 {
 }
 
 #home .row {
-    margin-bottom: -70px;
-    padding: 5px;
+    margin-bottom: -35px;
 }
 
 span {
     font-weight: 300;
 }
 
-/* header here */
+.progress {
+    margin-top: 40px;
+    height: 30px;
+    border-radius: 200px;
+    font-size: 20px;
+    border: 2px solid rgb(173, 214, 221);
+}
 
+.bar-color {
+    background-color: #e67e22;
+}
+
+/* header here */
 .bg-dark {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back1.jpg);
     background-size: cover;
@@ -154,6 +164,7 @@ span {
     opacity: 0.75;
     cursor: pointer;
     color: Black;
+    transition: opacity 0.3s, color 0.3s;
 }
 
 @media(min-width: 1299px){
@@ -171,24 +182,33 @@ span {
 }
 
 /* Button */
+#home .btn-ghost {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 300;
+    border-radius: 200px;
+}
+
+/*
 .btn-ghost:link,
 .btn-ghost:visited {
     color: #555;
 }
+*/
 
-.btn-ghost:hover,
+#home .btn-ghost:hover,
 .btn-ghost:active {
     border: 1px solid #cf6d17;
     color: #fff;
 }
 
-.btn:link,
-.btn:visited {
+#home .btn:hover,
+.btn:focus {
     display: inline-block;
     padding: 5px 10px;
     font-weight: 300;
-    text-decoration: none;
     border-radius: 200px;
+    text-decoration: none;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
 
