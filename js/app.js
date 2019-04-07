@@ -12,6 +12,7 @@
             $(this).ekkoLightbox();
         });
 
+        // progress bar function
         function move(num) {
             var numberP = num;
             var elem = document.getElementById("myBar");     
