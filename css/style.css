@@ -124,10 +124,6 @@ h3 {
     font-weight: 300;
 }
 
-#home .row {
-    margin-bottom: -35px;
-}
-
 span {
     font-weight: 300;
 }
@@ -137,7 +133,7 @@ span {
     height: 30px;
     border-radius: 200px;
     font-size: 20px;
-    border: 2px solid rgb(173, 214, 221);
+    border: 2.2px solid rgb(173, 214, 221);
 }
 
 .bar-color {
@@ -156,11 +152,12 @@ span {
     width: 100%;
     height: 100%;
     margin: 0;
-
+    padding: 0;
 }
 
 #main-header .port-item {
     width: 30%;
+    height: 127px;
 }
 
 #main-header .port-item:hover {
@@ -170,13 +167,11 @@ span {
     transition: opacity 0.3s, color 0.3s;
 }
 
-.port-item {
-    height: 90px;
-}
 
-@media(min-width: 1299px){
+
+@media(min-width: 1199px){
     .port-item {
-        padding: 2.5em !important;
+        padding: 2.2em !important;
     }
 }
 
