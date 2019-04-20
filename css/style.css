@@ -43,7 +43,7 @@ h3 {
 #work h3:after {
     display: block;
     height: 2px;
-    background-color: rgb(151, 152, 167);
+    background-color: #e67e22;
     content: " ";
     width: 200px;
     margin: 0 auto;
@@ -67,6 +67,7 @@ h3 {
     width: 70%;
     color: #555;
     margin-left: 15%;
+    margin-bottom: 5%;
 }
 
 /* toggle sub here */
@@ -177,7 +178,6 @@ span {
 
 #main-header .port-item {
     width: 30%;
-    height: 127px;
 }
 
 #main-header .port-item:hover {
@@ -228,6 +228,7 @@ span {
 
 .section-meals {
     padding: 0;
+    margin-right: 4.2%;
 }
 
 .meals-showcase {
@@ -270,12 +271,131 @@ span {
 /* image text */
 /* Bottom right text */
 .text-block {
+    font-size: 0.5vw;
     position: absolute;
     color: white;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+/* background */
+.span-2-of-2 {
+	width: 100%;
+}
+
+.span-1-of-2 {
+	width: 49.2%;
+}
+
+.section-steps {
+    margin-top: 4%;
+}
+
+.section-steps .long-copy{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#mun h3:after {
+    background-color: #b83e3e;
+}
+
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top:0;
+}
+ 
+.steps-box:last-child{
+    padding-left: 3%;
+    padding-right: 5%;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.mun-logo {
+    width: 100%;
+}
+
+.works-step {
+    margin-bottom: 20px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    color: #b83e3e;
+    border: 2px solid #b83e3e;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+/* work experience */
+.card-deck {
+    margin-left: 4%;
+    margin-bottom: 5%;
+    width: 45%;
+}
+
+.card-deck h4{
+    font-weight: 300;
+}
+
+.works-ex {
+    padding: 5px;
+}
+
+.works-ex div {
+    color: #e67e22;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    padding-right: 10px;
+    font-size: 125%;
+}
+
+.card-title {
+    border-bottom: 0.5px solid #e67e22;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-deck .card-body {
+    margin: 0;
+    padding: 15px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+#vol {
+    background-color: rgb(245, 245, 245);
+}
+
+#vol .card-text {
+    text-align: center;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.span-2-of-2 {
+		width: 100%; 
+	}
+	.span-1-of-2 {
+		width: 100%; 
+	}
+}
 
 
 /*
