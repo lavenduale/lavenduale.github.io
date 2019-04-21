@@ -335,10 +335,9 @@ span {
 
 /* work experience */
 .card-deck {
-    margin-left: 4%;
+    margin-left: 1.5%;
     margin-bottom: 5%;
     float: left;
-    
 }
 
 .card-deck .card {
