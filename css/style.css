@@ -213,7 +213,6 @@ span {
 
 
 /* MEALS */
-
 .clearfix {
     zoom: 1;
     margin:0;
@@ -228,7 +227,7 @@ span {
 
 .section-meals {
     padding: 0;
-    margin-right: 4.2%;
+    margin-right: 4.7%;
 }
 
 .meals-showcase {
@@ -341,7 +340,7 @@ span {
 }
 
 .card-deck .card {
-    box-shadow: 0 2px 2px #efefef;
+    box-shadow: 2px 2px 2px #efefef;
     border-radius: 6px;
 }
 
@@ -386,6 +385,17 @@ span {
 
 #vol .card-footer {
     background-color: #fff;
+}
+
+/* project */
+#project h3:after {
+    display: block;
+    height: 2px;
+    background-color: rgb(243, 173, 81);
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 /*
