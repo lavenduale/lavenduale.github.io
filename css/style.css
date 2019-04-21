@@ -280,16 +280,8 @@ span {
   }
 
 /* background */
-.span-2-of-2 {
-	width: 100%;
-}
-
-.span-1-of-2 {
-	width: 49.2%;
-}
-
 .section-steps {
-    margin-top: 4%;
+    margin-top: 3%;
 }
 
 .section-steps .long-copy{
@@ -302,21 +294,21 @@ span {
 }
 
 .steps-box:first-child{
-    text-align: right;
+    text-align: left;
     padding-right: 10%;
     padding-left: 10%;
-    padding-top:0;
+    padding-top: 0;
 }
  
 .steps-box:last-child{
-    padding-left: 3%;
+    padding-left: 23%;
     padding-right: 5%;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: 300;
 }
 
 .mun-logo {
-    width: 100%;
+    width: 85%;
 }
 
 .works-step {
@@ -345,7 +337,13 @@ span {
 .card-deck {
     margin-left: 4%;
     margin-bottom: 5%;
-    width: 45%;
+    float: left;
+    
+}
+
+.card-deck .card {
+    box-shadow: 0 2px 2px #efefef;
+    border-radius: 6px;
 }
 
 .card-deck h4{
@@ -391,17 +389,6 @@ span {
     background-color: #fff;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.span-2-of-2 {
-		width: 100%; 
-	}
-	.span-1-of-2 {
-		width: 100%; 
-	}
-}
-
-
 /*
 .btn-ghost:link,
 .btn-ghost:visited {
@@ -428,4 +415,70 @@ span {
 #home .btn:hover,
 btn:active {
     background-color: #cf6d17;
+}
+
+/* grid part */
+.span-2-of-2 {
+	width: 100%;
+}
+
+.span-1-of-2 {
+	width: 49.2%;
+}
+
+.span-6-of-6 {
+	width: 100%;
+}
+
+.span-5-of-6 {
+  	width: 83.06%;
+}
+
+.span-4-of-6 {
+  	width: 66.13%;
+}
+
+.span-3-of-6 {
+  	width: 49.2%;
+}
+
+.span-2-of-6 {
+  	width: 32.26%;
+}
+
+.span-1-of-6 {
+  	width: 15.33%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.span-6-of-6 {
+		width: 100%; 
+	}
+	.span-5-of-6 {
+		width: 100%; 
+	}
+	.span-4-of-6 {
+		width: 100%; 
+	}
+	.span-3-of-6 {
+		width: 100%; 
+	}
+	.span-2-of-6 {
+		width: 100%; 
+	}
+	.span-1-of-6 {
+		width: 50%; 
+	}
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.span-2-of-2 {
+		width: 100%; 
+	}
+	.span-1-of-2 {
+		width: 100%; 
+	}
 }
